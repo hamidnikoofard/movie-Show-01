@@ -65,3 +65,13 @@ humbergerMenuEL.addEventListener("click" , ()=> {
 closeMenuEL.addEventListener('click' , () => {
     menuListMobileEL.classList.remove('active')
 })
+
+
+let BTNEL = document.querySelectorAll('.faq-button');
+let answer = document.querySelectorAll('.an');
+
+BTNEL.forEach((BTN, index) => {
+  BTN.addEventListener('click', () => {
+    answer[index].classList.toggle('answer');
+  });
+});
