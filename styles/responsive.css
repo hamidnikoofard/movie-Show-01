@@ -1,0 +1,93 @@
+@media only screen and (max-width: 992px){
+    .container{
+        padding: 20px;
+    }
+
+    .flex-wrap{
+        flex-wrap: wrap;
+    }
+
+    .d-non{
+        display: none;
+    }
+
+    .palner-btn{
+        margin-top: 20px;
+    }
+
+    .d-block{
+        display: block;
+    }
+
+    .owl-prev::before{
+        display: none;
+    }
+
+    .owl-next::before{
+        display: none;
+    }
+    
+    .owl-dots{
+        display: none;
+    }
+
+    .explore-title-button{
+        text-align: center;
+    }
+
+    .title-header{
+        text-align: center;
+    }
+
+    .device-cards{
+        justify-content: center;
+    }
+
+    .FAQ-title{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    .FAQ-content-fix{
+        display: flex;
+        flex-direction: column;
+        /* width: 800px; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* .FAQ-content{
+        max-width: 500px;
+    } */
+
+    .dispay-flex{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .FAQ-content-title{
+        width: 200px;
+    }
+    
+    .mr{
+        margin-right: 100px;
+    }
+
+    .mt{
+        margin-top: 30px;
+    }
+
+    .Subscription{
+        margin-right: 50px;
+    }
+
+    footer{
+        padding: 0;
+    }
+
+    .info{
+        gap: 32px;
+    }
+}

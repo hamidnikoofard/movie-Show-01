@@ -1,0 +1,186 @@
+header{
+    background-image: url('../assets/niloofar/Sub\ Container.png');
+    background-size: cover;
+    background-position: center;
+    height: 1092px;
+    padding-top: 30px;
+}
+
+.logo-menue{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #0f0f0f;
+}
+
+.menu ul{
+    display: flex;
+    gap: 50px;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li:hover{
+    background-color: #000000;
+    border-radius: 8px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.search{
+    display: flex;
+    gap: 30px;
+}
+
+.title-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.title-header{
+    color: #ffff;
+}
+
+.title-header p{
+    color: gray;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.header-btn{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 68px;
+    gap: 5px;
+    background-color: #e50000;
+    border-radius: 8px;
+    padding: 14px 38px;
+}
+
+.mneu-mobile{
+    display: none;
+}
+
+.humberger-menu{
+    cursor: pointer;
+}
+
+.menu-list{
+    position: fixed;
+    width: 200px;
+    background-color: #e8e8e8ea;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    left: -100%;
+    top: 0;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-list.active{
+    left: 0;
+}
+
+.menu-list button{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+    position: absolute;
+    right: 10%;
+    top: 2%;
+}
+
+.ul-mobile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+.menu-moblie{
+    display: none;
+}
+
+.humberger-menu{
+    cursor: pointer;
+}
+
+.menu-list{
+    position: fixed;
+    width: 200px;
+    background-color: #e8e8e8ea;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    left: -100%;
+    top: 0;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-list.active{
+    left: 0;
+}
+
+.menu-list button{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+    position: absolute;
+    right: 10%;
+    top: 2%;
+}
+
+.ul-mobile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.logo i{
+    color: #ffff;
+    background-color: #303030;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.ul-mobile ul{
+    text-align: center;
+}
+
+.ul-mobile li{
+    list-style: none;
+}
+
+.ul-mobile li a{
+    text-decoration: none;
+
+}

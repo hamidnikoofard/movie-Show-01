@@ -1,0 +1,194 @@
+.device-title{
+    margin-top: 150px;
+    max-width: 1597px;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.device-title h1{
+    font-weight: 700px;
+    font-size: 38px;
+    line-height: 57px;
+    color:rgba(255, 255, 255, 1) ;
+}
+.device-title p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(153, 153, 153, 1);
+}
+.device-cards{
+    /* max-width: 1,597px; */
+    margin-top: 80px;
+    display: flex;
+    flex-direction:column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    justify-content: space-between;
+}
+.device-card{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    /* background-color:  */
+    border: solid 1px rgba(38, 38, 38, 1);
+    border-radius: 12px;
+    /* max-width: 512.33px; */
+    margin-bottom: 30px;
+    background: rgba(15, 15, 15, 1); 
+    background: linear-gradient(220deg,rgba(229, 0, 0, 0.116)5%,rgba(229, 0, 0, 0)100%);
+}
+.dispay-flex{
+    display: flex;
+    gap:20px;
+}
+.device-card-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    max-width: 412.33px;
+}
+.device-card-title h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-left: 16px;
+}
+.device-card-p p{
+    max-width: 412.33px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(153, 153, 153, 1);
+    margin-top: 30px;
+}
+.FAQ-title{
+    margin-top: 150px;
+    max-width:1,596px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+.FAQ-title-head{
+    max-width: 1,320px;
+    width: 1200px;
+    /* max-height:98px; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* background-color: blue; */
+}
+.FAQ-title-head-text h1{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+}
+.FAQ-title-head-text p{
+    color: rgba(153, 153, 153, 1);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 20px;
+}
+.FAQ-title-button{
+    max-width: 276;
+    max-height: 98px;
+    display: flex;
+    justify-content: end;
+    /* background-color: aqua; */
+    align-items: end;
+}
+.FAQ-title-button button{
+    all: unset;
+    background-color:rgba(229, 0, 0, 1) ;
+    padding: 18px 24px 18px 24px;
+    border-radius: 8px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    width: 176px;
+}
+.FAQ-content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    /* width: 758px; */
+    box-shadow: rgb(255, 0, 0) -0px 1px 3px -1px;
+    padding: 30px 34px 30px 34px;
+    /* margin-bottom: 100px; */
+}
+.FAQ-content h1{
+    padding: 20px;
+    border: solid rgba(38, 38, 38, 1) 1px;
+    background-color: rgba(31, 31, 31, 1);
+    border-radius: 10px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+    line-height: 27.32px;
+    color: rgba(255, 255, 255, 1);
+    /* max-width: 65px;
+    max-height: 65px; */
+}
+.FAQ-content button{
+    all: unset;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 35px;
+    font-weight: 500;
+}
+.FAQ-content-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 400px;
+}
+.FAQ-content-title span{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 33px;
+    margin-bottom: 15px
+}
+.FAQ-content-title p{
+    margin-top:px;
+}
+
+.FAQ{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center ;
+}
+.an{
+    display: none;
+}
+.answer{
+    display:inline;
+}
+.FAQ-content-title p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(102, 102, 102, 1);
+}
+.FAQ-content-fix{
+    display: flex;
+    justify-content: space-between;
+    /* width: 1200px; */
+}
+.FAQ-button:hover{
+    cursor: pointer;
+}
+.FAQ-button :active{
+    display: none;
+}
