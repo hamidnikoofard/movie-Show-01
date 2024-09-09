@@ -90,4 +90,8 @@
     .info{
         gap: 32px;
     }
+
+    .title{
+        text-align: center;
+    }
 }
