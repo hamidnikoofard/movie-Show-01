@@ -87,7 +87,7 @@
 .menu-list{
     position: fixed;
     width: 200px;
-    background-color: #e8e8e8ea;
+    background-color: #303030 ;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     left: -100%;
     top: 0;
@@ -132,20 +132,6 @@
     cursor: pointer;
 }
 
-.menu-list{
-    position: fixed;
-    width: 200px;
-    background-color: #e8e8e8ea;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    left: -100%;
-    top: 0;
-    height: 100%;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    transition: all 0.3s ease-in-out;
-}
 
 .menu-list.active{
     left: 0;
@@ -183,9 +169,16 @@
 
 .ul-mobile li{
     list-style: none;
+    margin-top: 10px;
 }
 
 .ul-mobile li a{
     text-decoration: none;
+    color: #ffff;
+    cursor: pointer;
+}
 
+.ul-mobile li a:hover{
+    text-decoration: none;
+    color: #e50000;
 }
