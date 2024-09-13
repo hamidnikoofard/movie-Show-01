@@ -1,4 +1,4 @@
-header{
+.backgraound-header{
     background-image: url('../assets/niloofar/Sub\ Container.png');
     background-size: cover;
     background-position: center;
@@ -10,10 +10,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 
 .menu{
-    border: 1px solid gray;
+    border: 1px solid #bfbfbf;
     border-radius: 8px;
     padding: 10px;
     background-color: #0f0f0f;
@@ -26,6 +27,9 @@ header{
 
 .menu ul li{
     list-style: none;
+    display: inline-block;
+    padding: 12px;
+    transition: all 0.3s ease-in-out;
 }
 
 .menu ul li:hover{
@@ -93,6 +97,7 @@ header{
     flex-direction: column;
     padding: 30px;
     transition: all 0.3s ease-in-out;
+    z-index: 2;
 }
 
 .menu-list.active{

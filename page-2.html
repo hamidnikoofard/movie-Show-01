@@ -6,6 +6,8 @@
     <title>Page2</title>
     <link rel="stylesheet" href="styles/hamid-2.css">
     <link rel="stylesheet" href="styles/mohamad-2.css">
+    <link rel="stylesheet" href="styles/niloo.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/owl.carousel.min.css">
     <link rel="stylesheet" href="styles/owl.theme.default.min.css">
@@ -14,94 +16,214 @@
 <body>
     <div class="container">
         <header>
-
+            <div class="logo-menue">
+                <img src="assets/niloofar/Logo.svg" alt="">
+                <div class="menu-moblie d-block">
+                    <div class="logo">
+                        <i class="fa-solid fa-bars humberger-menu"></i>
+                    </div>
+                    <div class="menu-list">
+                        <button><i class="fas fa-times close-menu"></i></button>
+                        <ul class="ul-mobile">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Teams</a></li>
+                            <li><a href="">Support</a></li>
+                            <li><a href="">Abute Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu d-non">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Movies & Shows</a></li>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Subscriptions</a></li>
+                    </ul>
+                </div>
+                <div class="search d-non">
+                    <img src="assets/niloofar/iconsearch.svg" alt="">
+                    <img src="assets/niloofar/Vector.png" alt="">
+                </div>
+            </div>
         </header>
         <section>
-            <!-- slider header -->
-        </section>
-
-        <section>
-            <button class="movies-btn">Movies</button>
-            <div class="our-genres">
-                <div class="genres-title-button">
-                    <div class="title">
-                        <h2>Our Genres</h2>
-                    </div>
-                </div>
-                <div class="our-genres-box owl-carousel owl-carousel-2 owl-theme">
-                    <!-- <div class="movie-box">
-                        <img src="assets/img/Container.png" alt="" class="img-width">
-                        <div class="movie-genre">
-                            <span>َAction</span>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="movie-box">
-                        <img src="assets/img/Container.png" alt="" class="img-width">
-                        <div class="movie-genre">
-                            <span>َAction</span>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="movie-box">
-                        <img src="assets/img/Container.png" alt="" class="img-width">
-                        <div class="movie-genre">
-                            <span>َAction</span>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="movie-box">
-                        <img src="assets/img/Container.png" alt="" class="img-width">
-                        <div class="movie-genre">
-                            <span>َAction</span>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
+            <div class="slider-subheader owl-carousel owl-carousel-5 owl-theme"></div>
         </section>
         <section>
-            <div class="our-genres">
-                <div class="genres-title-button">
-                    <div class="title">
-                        <h2>Popular Top 10 In Genres</h2>
-                    </div>
-                </div>
-                <div class="top-10-box owl-carousel owl-carousel-3 owl-theme">
-                    <!-- <div class="movie-box">
-                        <img src="assets/img/Container.png" alt="" class="img-width">
-                        <div class="movie-genre">
-                            <span>َAction</span>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="movie-box">
-                        <img src="assets/img/Container.png" alt="" class="img-width">
-                        <div class="movie-genre">
-                            <span>َAction</span>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="movie-box">
-                        <img src="assets/img/Container.png" alt="" class="img-width">
-                        <div class="movie-genre">
-                            <span>َAction</span>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="movie-box">
-                        <img src="assets/img/Container.png" alt="" class="img-width">
-                        <div class="movie-genre">
-                            <span>َAction</span>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                    </div> -->
-                </div>
+            <div class="switch-btn d-block">
+                <button class="movie-btn">Movies</button>
+                <button class="tv-btn">Shows</button>
             </div>
         </section>
-
-
+        <div class="border-box movie-section active">
+            <button class="movies-btn d-non">Movies</button>
+            <section>
+                <div class="our-genres">
+                    <div class="genres-title-button">
+                        <div class="title">
+                            <h2>Our Genres</h2>
+                        </div>
+                    </div>
+                    <div class="our-genres-box owl-carousel owl-carousel-2 owl-theme"></div>
+                </div>
+            </section>
+            <section>
+                <div class="our-genres">
+                    <div class="genres-title-button">
+                        <div class="title">
+                            <h2>Popular Top 10 In Genres</h2>
+                        </div>
+                    </div>
+                    <div class="top-10-box owl-carousel owl-carousel-3 owl-theme"></div>
+                </div>
+            </section>
+            <section>
+                <div class="trending-now">
+                    <div class="genres-title-button">
+                        <div class="title">
+                            <h2>Trending Now</h2>
+                        </div>
+                    </div>
+                    <div class="trending-now-movie owl-carousel owl-carousel-6 owl-theme"></div>
+                </div>
+            </section>
+            <section>
+                <div class="new-releases">
+                    <div class="genres-title-button">
+                        <div class="title">
+                            <h2>New Releases</h2>
+                        </div>
+                    </div>
+                    <div class="new-releases-movie owl-carousel owl-carousel-4 owl-theme"></div>
+                </div>
+            </section>
+            <section>
+                <div class="must-watch">
+                    <div class="genres-title-button">
+                        <div class="title">
+                            <h2>Must - Watch Movies</h2>
+                        </div>
+                    </div>
+                    <div class="must-watch-movie owl-carousel owl-carousel-7 owl-theme"></div>
+                </div>
+            </section>
+        </div>
+        <div class="border-box tv-section">
+            <button class="movies-btn d-non">Shows</button>
+            <section>
+                <div class="our-genres">
+                    <div class="genres-title-button">
+                        <div class="title">
+                            <h2>Our Genres</h2>
+                        </div>
+                    </div>
+                    <div class="our-genres-box-tv owl-carousel owl-carousel-2 owl-theme"></div>
+                </div>
+            </section>
+            <section>
+                <div class="our-genres">
+                    <div class="genres-title-button">
+                        <div class="title">
+                            <h2>Popular Top 10 In Genres</h2>
+                        </div>
+                    </div>
+                    <div class="top-10-genres-box-tv owl-carousel owl-carousel-3 owl-theme"></div>
+                </div>
+            </section>
+            <section>
+                <div class="trending-now">
+                    <div class="genres-title-button">
+                        <div class="title">
+                            <h2>Trending Now</h2>
+                        </div>
+                    </div>
+                    <div class="trending-now-tv owl-carousel owl-carousel-8 owl-theme"></div>
+                </div>
+            </section>
+            <section>
+                <div class="new-releases">
+                    <div class="genres-title-button">
+                        <div class="title">
+                            <h2>New Releases</h2>
+                        </div>
+                    </div>
+                    <div class="new-releases-tv owl-carousel owl-carousel-9 owl-theme"></div>
+                </div>
+            </section>
+            <section>
+                <div class="must-watch">
+                    <div class="genres-title-button">
+                        <div class="title">
+                            <h2>Must - Watch Movies</h2>
+                        </div>
+                    </div>
+                    <div class="must-watch-tv owl-carousel owl-carousel-10 owl-theme"></div>
+                </div>
+            </section>
+        </div>
+        <section>
+            <div class="free-trail flex-wrap"> 
+                <div class="title">
+                    <h1>Start your free trial today!</h1>
+                    <p>This is a clear and concise call to action that encourages users to sign up for a free trial of StreamVibe.</p>
+                </div>
+                <button>Start a Free Trail</button>
+            </div>
+        </section>
     </div>
+    <footer>
+        <div class="container">
+            <div class="footer-info flex-wrap">
+                <div class="cat-home mr">
+                    <h2>Home</h1>
+                    <span class="margin-top">Categories</span>
+                    <span>Devices</span>
+                    <span>Pricing</span>
+                    <span>FAQ</span>
+                </div>
+                <div class="cat-movie">
+                    <h2>Movies</h1>
+                    <span class="margin-top">Gernes</span>
+                    <span>Trending</span>
+                    <span>New Release</span>
+                    <span>Popular</span>
+                </div>
+                <div class="cat-shows mr mt">
+                    <h2>Shows</h1>
+                    <span class="margin-top">Gernes</span>
+                    <span>Trending</span>
+                    <span>New Release</span>
+                    <span>Popular</span>
+                </div>
+                <div class="Support mt">
+                    <h2>Support</h2>
+                    <span class="margin-top">Contact Us</span>
+                </div>
+                <div class="Subscription mt">
+                    <h2>Subscription</h2>
+                    <span class="margin-top">Plans</span>
+                    <span>Features</span>
+                </div>
+                <div class="connect-with-us mt">
+                    <h2>Connect With Us</h2>
+                    <div class="social-icon margin-top">
+                        <a href="" class=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="info flex-wrap">
+                <p>@2023 streamvib, All Rights Reserved</p>
+                <div class="privicy">
+                    <span>Terms of Use</span>
+                    <span>Privacy Policy</span>
+                    <span>Cookie Policy</span>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="scripts/owl.carousel.js"></script>

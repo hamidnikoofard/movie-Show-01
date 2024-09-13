@@ -3,6 +3,10 @@
         padding: 20px;
     }
 
+    .flex-col{
+        flex-direction: column;
+    }
+
     .flex-wrap{
         flex-wrap: wrap;
     }
@@ -46,21 +50,14 @@
     .FAQ-title{
         display: flex;
         flex-wrap: wrap;
-        /* justify-content: center; */
-        /* align-items: center; */
     }
 
     .FAQ-content-fix{
         display: flex;
         flex-direction: column;
-        /* width: 800px; */
         justify-content: center;
         align-items: center;
     }
-
-    /* .FAQ-content{
-        max-width: 500px;
-    } */
 
     .dispay-flex{
         justify-content: center;
@@ -93,5 +90,54 @@
 
     .title{
         text-align: center;
+    }
+
+    .title-header-page-2{
+        margin-top: -100px;
+    }
+    
+    .slider-subheader .owl-prev span{
+        display: none;
+    }
+    
+    .slider-subheader .owl-next span{
+        display: none;
+    }
+    
+    .slider-img img{
+        object-fit: cover;
+    }
+
+    .play-btn{
+        width: 310px;
+    }
+
+    .tv-section{
+        display: none;
+    }
+
+    .movie-section{
+        display: none;
+    }
+
+    .active{
+        display: block;
+    }
+
+    .border-box{
+        margin-top: 50px;
+        border: none;
+    }
+
+    .genres-title-button{
+        margin-top: 0;
+    }
+
+    .owl-next{
+        display: none !important;
+    }
+
+    .owl-prev{
+        display: none !important;
     }
 }
