@@ -1,5 +1,5 @@
 .backgraound-header{
-    background-image: url('../assets/niloofar/Sub\ Container.png');
+    background-image: url('../assets/img/Sub\ Container.png');
     background-size: cover;
     background-position: center;
     height: 1092px;
@@ -74,6 +74,19 @@
     background-color: #e50000;
     border-radius: 8px;
     padding: 14px 38px;
+}
+
+.header-button{
+    background-color: transparent;
+    border: none;
+    margin: 150px auto;
+    display: flex;
+    cursor: pointer;
+}
+
+.header-button img{
+    width: 100%;
+    height: auto;
 }
 
 .mneu-mobile{

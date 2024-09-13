@@ -23,6 +23,10 @@
         display: block;
     }
 
+    .backgraound-header{
+        height: 720px;
+    }
+
     .owl-prev::before{
         display: none;
     }
