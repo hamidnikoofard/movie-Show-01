@@ -27,6 +27,10 @@
         height: 720px;
     }
 
+    .header-button{
+        margin-top: 50px auto;
+    }
+
     .owl-prev::before{
         display: none;
     }
